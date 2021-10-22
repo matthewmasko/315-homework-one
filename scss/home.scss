@@ -1,0 +1,49 @@
+.page-container {
+  .home-container {
+    max-width: 1280px;
+    min-height: 1400px;
+    // background-color: wheat;
+
+    .home-header {
+      max-width: 1280px;
+      min-height: 100px;
+      //   background-color: blueviolet;
+      text-align: center;
+      margin-top: 50px;
+      font-family: "Times New Roman";
+    }
+
+    .radar-regional {
+      max-width: 600px;
+      max-height: 600px;
+      //   background-color: yellow;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px;
+
+      img {
+        max-width: 600px;
+        max-height: 600px;
+      }
+    }
+
+    .radar-national {
+      margin: 0 auto;
+
+      max-width: 800px;
+      max-height: 600px;
+      min-width: 800px;
+      min-height: 600px;
+      //   background-color: aqua;
+      margin-bottom: 50px;
+      text-align: center;
+
+      img {
+        min-width: 800px;
+        min-height: 600px;
+        max-width: 800px;
+        max-height: 600px;
+      }
+    }
+  }
+}

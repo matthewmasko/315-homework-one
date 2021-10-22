@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+nav {
+    height: 75px;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+}
+
+.page-container {
+max-width: 1280px;
+min-height: 500px;
+// background-color: violet;
+margin: 0 auto;
+}
